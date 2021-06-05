@@ -1,0 +1,35 @@
+<?xml-stylesheet type="text/xsl" href="simple.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+			
+<urlset>
+  <url>
+    <loc>C:\wamp\www\project\sitemap.php</loc>
+    <lastmod>2016-04-03T17:43:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>C:\wamp\www\project\upload.php</loc>
+    <lastmod>2016-04-17T02:49:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>C:\wamp\www\project\upload_prescription.php</loc>
+    <lastmod>2016-04-17T14:33:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>C:\wamp\www\project\view_product.php</loc>
+    <lastmod>2016-04-16T21:47:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>C:\wamp\www\project\view_profile.php</loc>
+    <lastmod>2016-04-17T14:30:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

@@ -1,0 +1,41 @@
+Part - I
+
+HTML
+
+-Forms(min 3)
+
+-Frames(min 1)
+
+-links
+
+-tables
+
+-Lists
+
+-images
+
+
+CSS
+
+-inline,external,internal(min 5 )
+
+-atleast 5 properties
+
+
+
+JavaScript
+-event handling
+-validation
+
+
+Part - II
+
+
+-Link back end Database(MySQL min 3 table)
+
+-CGI prgrms to handle to user rqst...(min 4)
+-PHP prgrms to handle the user rqst(min 4)
+
+-PHP to generate hit counts and cookies
+
+-report and demo

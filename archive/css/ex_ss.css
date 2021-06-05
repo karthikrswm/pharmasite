@@ -1,0 +1,300 @@
+body
+{
+/*background-color:#989898;*/
+/*background-color:#909090;*/
+margin:0 auto;
+background-color:#E6E6E6;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+.container
+{
+    	border-left:solid;
+		border-right:solid;
+		border-color:#909090;
+		border-width:2px;
+        box-shadow: 0 0 10px 10px rgba(0,0,0,0.6); 
+        margin-left:60px;
+        margin-right:60px;
+}
+
+#logo
+{
+    width:350px;
+    height:70px;
+    float:left;
+}
+#header 
+{
+		 background-color:#36434F;
+         background: linear-gradient(#669999, #a3c2c2);	
+         padding:10px;	 
+		 height:90px;
+}
+
+  #menutop { z-index: 0; font-family:Georgia;font-size:20px;height:40px;background: #99ccff;border-top:solid;border-color:white;border-width:1px;}
+  #menutop ul {list-style: none;padding: 0px;margin: 0px;}
+  #menutop ul li {display: block;position: relative;float: left;}
+  #menutop li ul {display: none;}
+  #menutop ul li a {display: block;background: #99ccff;padding: 5px 20px 5px 20px;margin:0px 3px;text-decoration: none;white-space: nowrap;color: #000;}
+  #menutop ul li a:hover {background: #bfbfbf;border-bottom: 2px solid;}
+  #menutop li:hover ul {display: block; position: absolute;}
+  #menutop li:hover li {float: none;font-size:16px;}
+  #menutop li:hover a {background: #fff;}
+  #menutop li:hover li a:hover {background: #bfbfbf;}
+  #menutop #drop-nav li ul li {border-top: 0px;}
+
+  #account {  font-family:Segoe UI Light;font-size:20px;font-weight:bold;height:40px;}
+  #account ul {list-style: none;padding: 0px;margin: 0px;z-index: 10;}
+  #account ul li {display: block;position: relative;float: left;}
+  #account li ul {display: none;}
+  #account ul li a {display: block;background-color: #e6e6e6; border-radius:5px;padding: 5px 15px 5px 15px;margin:0px 3px;text-decoration: none;white-space: nowrap;color: #000;}
+  #account ul li a:hover {background: #ff9966;border-bottom: 2px solid;z-index: 10;}
+  #account li:hover ul {display: block; position: absolute;}
+  #account li:hover li {float: none;font-size:16px;margin:2px 0px;}
+  #account li:hover a {background: #d9d9d9;}
+  #account li:hover li a:hover {background: #0099e6;}
+  #account #drop-nav li ul li {border-top: 0px;}
+
+.product
+{
+    width:250px;
+    height:300px;
+    //float:left;
+    background-color:#fff;
+    border: 1px solid #d9d9d9;
+    border-radius:7px;
+    padding:20px;
+    margin:5px;
+    text-align:center;
+}
+
+.product img 
+{
+    height:170px;
+    transition: all 0.2s ease;
+}
+
+.product img:hover
+{
+    height:185px;
+    //cursor:pointer;
+}
+
+.caption
+{
+    text-align:left;
+}
+
+.caption p
+{
+    font-size:17px;
+}
+
+.caption h2 a
+{
+    color:cornflowerblue;
+    font-family:Segoe UI Light;
+}
+
+.caption h2 a:hover
+{
+    color:cadetblue;
+    text-decoration:underline;
+}
+
+#footer {
+		 max-width:100%;
+         height:90px;
+		 background-color:#36434F;	
+		 color:white;
+		 font-size:1.5em;
+         text-align:center;
+		 padding:.8em;
+		 /*margin-top:60px;
+		 border-radius:5px;*/
+		 }
+#footer ul 
+{
+list-style-type:none;
+}
+
+#footer ul li 
+{
+font-family:Palatino Linotype;
+display:inline;
+margin:1.5em;
+}
+
+#footer ul li a
+{
+color:#bfbfbf;
+text-decoration:none;
+//-webkit-transition: 1s 3s;
+}
+
+#footer ul li a:hover
+{
+color:white;
+}
+
+
+.search
+{
+    background-color:white;
+    padding:10px;
+    border-radius:7px;
+    font-size:1.5em;
+    width:85%;
+    float:left;
+    //display:table;
+   
+}
+
+.search input
+{
+    width:65%;
+    border:none;
+    //display:table-row;
+}
+
+.search select
+{
+    width:30%;
+    //height:2.8em;
+    font-family:Segoe UI Light;
+}
+
+.button1
+{
+  color: #fff;
+  background-color: #337ab7;    /*purple*/
+  border-color: #2e6da4;
+  padding:10px;
+  border-radius:5px;
+  text-decoration:none;
+  font-size:20px;
+  font-family:Segoe UI Light; 
+}
+
+.button1:hover
+{
+    font-size:21px;
+  background-color: #286090;
+  border-color: #122b40;
+    font-weight:bold;
+}
+
+.button2
+{
+  color: #fff;
+  background-color: #5bc0de;    /*blue*/
+  border-color: #46b8da;
+  padding:10px;
+  border-radius:5px;
+  text-decoration:none;
+  font-size:20px;
+  font-family:Segoe UI Light; 
+}
+
+
+.button2:hover
+{
+    font-size:21px;
+    background-color: #fff;
+    color:#5bc0de;
+    font-weight:bold;
+}
+
+.button3
+{
+  color: #fff;
+  background-color: #f0ad4e;    /*orange*/
+  border-color: #eea236;
+  padding:10px;
+  border-radius:5px;
+  text-decoration:none;
+  font-size:20px;
+  font-family:Segoe UI Light; 
+}
+
+.button3:hover
+{
+    font-size:21px;
+  background-color: #ec971f;
+  border-color: #985f0d;
+    font-weight:bold;
+}
+
+.button4
+{
+  color: #fff;
+  background-color: #5cb85c;    /*green*/
+  border-color: #4cae4c;
+  padding:10px;
+  border-radius:5px;
+  text-decoration:none;
+  font-size:20px;
+  font-family:Segoe UI Light; 
+}
+
+.button4:hover
+{
+    //font-size:21px;
+  background-color: #449d44;
+  border-color: #255625;
+    font-weight:bold;
+}
+
+.button5
+{
+  color: #fff;
+  background-color: #d9534f;    /*red*/
+  border-color: #d43f3a;
+  padding:7px;
+  border-radius:5px;
+  text-decoration:none;
+  font-size:13px;
+  font-family:Segoe UI Light; 
+}
+
+.button5:hover
+{
+  //font-size:21px;
+  //background-color: #c9302c;
+  border-color: #761c19;
+    //font-weight:bold;
+}
+
+#msgbox
+{
+//bottom:0;
+//position:fixed;
+width:100%;
+height:10%;
+}
+
+div.message { 
+	border: 2px solid #000;
+	color: #000;
+        font-weight: bold;
+        font-family:Georgia;
+        font-size:25px;
+        padding: 20px;
+        display:inline-block; 
+}
+
+/* errors */
+.error {
+	border: 2px solid #000;
+	color: #000;
+        font-weight: bold;
+        font-family:Georgia;
+        font-size:25px;
+        padding: 1em;
+        display: block;
+}
