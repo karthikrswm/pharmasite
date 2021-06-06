@@ -194,7 +194,6 @@ function generateCaptcha() {
                     <li>
                         <a href="categories/wellness.php">WELLNESS</a>
                         <ul>
-                            <li> <a href="categories/wellness.php#bha">Brace & Health Aids</a> </li>
                             <li> <a href="categories/wellness.php#ft">Fitness</a> </li>
                             <li> <a href="categories/wellness.php#hme">Health Monitor & Equipments</a> </li>
                             <li> <a href="categories/wellness.php#sca">Senior Care & Aids</a> </li>

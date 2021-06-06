@@ -105,7 +105,6 @@
                 <li>
                     <a href="wellness.php">WELLNESS</a>
                     <ul>
-                        <li> <a href="wellness.php#bha">Brace & Health Aids</a> </li>
                         <li> <a href="wellness.php#ft">Fitness</a> </li>
                         <li> <a href="wellness.php#hme">Health Monitor & Equipments</a> </li>
                         <li> <a href="wellness.php#sca">Senior Care & Aids</a> </li>
@@ -133,35 +132,6 @@
             </p>
 
 			<p>
-            <br /><a name="bha">Brace & Health Aids</a><br />
- 		<table align="center">
-			
-			<?php 
-				$i=1;
-				$product_set = find_products_by_category_subcategory("wellness","bha");
-				while($product = mysqli_fetch_assoc($product_set))
-				{	if($i%4==0) echo "<tr>";
-			?>
-			        <td>
-                        <div class="product">
-                        <a href="../view_product.php?product_id=<?php echo $product["id"] ?>" target="_parent">
-                            <img src="../images/<?php echo $product["picture"] ?>" >
-						</a>
-                            <div class="caption">
-                                <h2><a href="../view_product.php?product_id=<?php echo $product["id"] ?>" target="_parent"><?php echo $product["name"] ?> </a></h2>
-                                <p align="center">
-                                    <a class="button4">&#x20B9; <?php echo $product["price"] ?></a> &nbsp;
-                                    <a href="../view_product.php?product_id=<?php echo $product["id"] ?>" class="button1" target="_parent">BUY NOW</a>
-                                </p>
-                            </div>
-                        </div>
-                    </td>
-			<?php 
-			if($i%3==0) echo "</tr>"; $i++;	}
-			?>
-
-                
-         </table>
             <br /><a name="ft">Fitness</a><br />
  		<table align="center">
 			
@@ -255,7 +225,7 @@
 			
 			<?php 
 				$i=1;
-				$product_set = find_products_by_category_subcategory("wellness","supplements");
+				$product_set = find_products_by_category_subcategory("wellness","ss");
 				while($product = mysqli_fetch_assoc($product_set))
 				{	if($i%4==0) echo "<tr>";
 			?>

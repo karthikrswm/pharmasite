@@ -105,7 +105,6 @@
                 <li>
                     <a href="wellness.php">WELLNESS</a>
                     <ul>
-                        <li> <a href="wellness.php#bha">Brace & Health Aids</a> </li>
                         <li> <a href="wellness.php#ft">Fitness</a> </li>
                         <li> <a href="wellness.php#hme">Health Monitor & Equipments</a> </li>
                         <li> <a href="wellness.php#sca">Senior Care & Aids</a> </li>
@@ -203,7 +202,7 @@
 			
 			<?php 
 				$i=1;
-				$product_set = find_products_by_category_subcategory("otc","men");
+				$product_set = find_products_by_category_subcategory("otc","mc");
 				while($product = mysqli_fetch_assoc($product_set))
 				{	if($i%4==0) echo "<tr>";
 			?>
@@ -235,7 +234,7 @@
 			
 			<?php 
 				$i=1;
-				$product_set = find_products_by_category_subcategory("otc","women");
+				$product_set = find_products_by_category_subcategory("otc","wc");
 				while($product = mysqli_fetch_assoc($product_set))
 				{	if($i%4==0) echo "<tr>";
 			?>

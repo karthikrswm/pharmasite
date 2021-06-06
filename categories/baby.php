@@ -102,7 +102,6 @@
                 <li>
                     <a href="wellness.php">WELLNESS</a>
                     <ul>
-                        <li> <a href="wellness.php#bha">Brace & Health Aids</a> </li>
                         <li> <a href="wellness.php#ft">Fitness</a> </li>
                         <li> <a href="wellness.php#hme">Health Monitor & Equipments</a> </li>
                         <li> <a href="wellness.php#sca">Senior Care & Aids</a> </li>
