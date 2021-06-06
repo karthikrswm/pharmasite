@@ -73,23 +73,7 @@
 
             <div id="menutop">
                 <ul id="drop-nav">
-                    <li>
-                        <a href="categories/prescriptions.php">PRESCRIPTIONS</a>
-                        <ul>
-                            <li> <a href="categories/prescriptions.php#medi">Medications</a> </li>
-                            <li> <a href="categories/prescriptions.php#all">Allergies</a> </li>
-                            <li> <a href="categories/prescriptions.php#pain">Pain Relievers</a> </li>
-                            <li> <a href="categories/prescriptions.php#adep">Anti-Depressants</a> </li>
-                            <li> <a href="categories/prescriptions.php#aim">Anti-Itch Medications</a> </li>
-                            <li> <a href="categories/prescriptions.php#atb">Anti-Tuberculosis (Tb) Medications</a> </li>
-                            <li> <a href="categories/prescriptions.php#ab">Antibiotics</a> </li>
-                            <li> <a href="categories/prescriptions.php#am">Asthma Medications</a> </li>
-                            <li> <a href="categories/prescriptions.php#cfm">Cold & Flu Medications</a> </li>
-                            <li> <a href="categories/prescriptions.php#sd">Skin Diseases</a> </li>
-                            <li> <a href="categories/prescriptions.php#wl">Weight Loss/Obesity Medications</a> </li>
-                            <li> <a href="categories/prescriptions.php#wn">Womens Need</a> </li>
-                        </ul>
-                    </li>
+                    
 
                     <li>
                         <a href="categories/otc.php">OTC</a>
